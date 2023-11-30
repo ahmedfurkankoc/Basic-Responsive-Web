@@ -23,6 +23,7 @@ a{
 
 p{
     padding: 1.6rem 0;
+    font-size: 2rem;
 }
 
 img{
@@ -124,7 +125,13 @@ footer a{
     color: #2690d4;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:800px) { 
+    html{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1200px) {
     #section-b li{
         width: 28%;
         margin: 1%;
@@ -137,6 +144,9 @@ footer a{
     }
 
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
+
+
+
